@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* Esconde scroll horizontal mas mantém funcional */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
